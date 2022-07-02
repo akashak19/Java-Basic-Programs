@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class TestSelection {
+
+	public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	
+	
+	int a;
+	System.out.println("Enter Integer number");
+	
+	a=s.nextInt();
+	
+	if(a%2==1)
+		System.out.println(a+" it is odd number");  
+		 
+	else	
+		System.out.println(a+" it is even number ");
+
+}
+
+}
