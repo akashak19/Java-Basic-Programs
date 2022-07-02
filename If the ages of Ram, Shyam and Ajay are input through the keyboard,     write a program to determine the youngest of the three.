@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class TestSelection {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int ram,shyam,ajay;
+		
+		System.out.println("Enter age of Ram");
+		ram=s.nextInt();
+		
+		System.out.println("Enter age of Shyam");
+		shyam=s.nextInt();
+		
+		System.out.println("Enter age of Ajay");
+		ajay=s.nextInt();
+		
+		if(ram<shyam && ram<ajay)
+			System.out.println(" Ram Is Youngest");
+		
+		if(shyam<ram && shyam<ajay)
+			System.out.println(" Shyam Is Youngest");
+		if(ajay<ram && ajay<shyam)
+			System.out.println(" Ajay Is Youngest");
+
+}
+
+}
