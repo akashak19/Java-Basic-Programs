@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class ConvertTemp
+ {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the days in nano");
+		
+		int na = sc.nextInt();
+		int ms =1000000*na;
+		int se=1000*ms;
+		int mi=60*se;
+                int hr =60*mi;
+                int day   =24*hr;
+		
+		System.out.println("nano = "+na);
+		System.out.println("milliseconds = "+ms);
+		System.out.println("seconds = "+se);
+		System.out.println("minutes = "+mi);
+                System.out.println("hours  = "+hr);
+                System.out.println("day = "+day);
+
+	}
+
+}
