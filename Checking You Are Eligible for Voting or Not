@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class TestSelection {
+
+	public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	
+	
+	int a;
+	System.out.println("Enter Your Age");
+	
+	a=s.nextInt();
+	
+	if(a>=18)  
+		System.out.println(" You are Eligible for Voting ");  
+		 
+	if(a<18)	
+		System.out.println(" You are Not-Eligible for Voting ");
+
+}
+
+}
