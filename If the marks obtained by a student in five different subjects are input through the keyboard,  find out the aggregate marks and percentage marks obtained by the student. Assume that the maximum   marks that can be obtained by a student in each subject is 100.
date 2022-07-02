@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class ConvertTemperature
+ {
+
+	public static void main(String[] args) {
+		
+        double English,Hindi,Maths,Bio,CS,total,percentage;
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter Mark of English");
+      English= sc.nextDouble();
+System.out.println("Enter Mark of Hindi");
+      Hindi= sc.nextDouble();
+System.out.println("Enter Mark of Maths");
+      Maths= sc.nextDouble();
+System.out.println("Enter Mark of Bio");
+      Bio= sc.nextDouble();
+System.out.println("Enter Mark of CS");
+      CS= sc.nextDouble();
+      
+      total = English + Hindi + Maths + Bio + CS;
+      percentage = (total / 5);
+  
+System.out.println("Aggregate Mark = "+total+" \nPercentage=" +percentage);
+}
+
+}
