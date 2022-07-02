@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class ConvertTemperature
+{
+
+public static void main(String args[])
+{
+
+	Scanner s = new Scanner(System.in);
+	int n1,n2;
+	System.out.println("Enter any 2 numbers");
+	n1=s.nextInt();
+	n2=s.nextInt();
+	
+	if(n1<n2)
+		System.out.println(n1+" is less then "+n2);
+	
+	if(n1>n2)
+		System.out.println(n2+" is less then "+n1);
+
+
+
+}
+
+}
