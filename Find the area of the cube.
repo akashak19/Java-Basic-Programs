@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class ConvertTemp{
+
+public static void main(String[]args){
+   double area;
+
+ Scanner sc = new Scanner(System.in);
+
+System.out.println("enter area of the value:");
+    area=sc.nextDouble();
+   area=6*area*area;
+System.out.println("Area of the cube ="+area);
+
+}
+}
