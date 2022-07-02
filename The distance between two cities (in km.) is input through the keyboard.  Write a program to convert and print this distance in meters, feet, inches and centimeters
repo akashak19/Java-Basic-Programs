@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class ConvertTemperature
+ {
+
+	public static void main(String[] args) {
+		
+        double km,m,f,i,cm;
+Scanner sc = new Scanner(System.in);
+System.out.println("distance between two cities (in km.)");
+
+ km = sc.nextDouble();
+ m=1000*km;
+ f=3280.84*km;
+ i=39370.08*km;
+ cm=1000*100*km;
+
+System.out.println("Kilometer = "+km+"\nMeters = "+m+"\nFeet ="+f+"\nInch="+i+"\nCentimeter="+cm);
+}
+
+}
