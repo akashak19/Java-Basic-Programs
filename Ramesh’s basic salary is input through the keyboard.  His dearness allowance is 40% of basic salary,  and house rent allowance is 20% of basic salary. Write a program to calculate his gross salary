@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class ConvertTemp {
+    public static void main(String[] args) {
+
+        int s,r;
+        Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the Salary");
+        s=sc.nextInt();
+        r=(s+(s*20)/100+(s*40)/100);
+        System.out.println("Gross Salary="+r);
+    }
+}
