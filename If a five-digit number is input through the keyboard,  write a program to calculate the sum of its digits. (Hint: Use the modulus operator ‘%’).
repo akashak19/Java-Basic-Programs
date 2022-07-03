@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class ConvertTemperature
+ {
+
+	public static void main(String args[]){
+		int n, sum;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Five digit number");
+		
+		n = sc.nextInt();
+		
+		sum=n%10+(n/10)%10+(n/100)%10+(n/1000)%10+(n/10000);
+		System.out.println("Sum of Five digit number = "+ sum );
+
+}
+
+}
