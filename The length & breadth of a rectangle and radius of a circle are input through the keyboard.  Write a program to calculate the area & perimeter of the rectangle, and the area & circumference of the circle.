@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class ConvertTemperature
+ {
+
+	public static void main(String[] args) {
+		
+		   double l,b,r,ac,cc,ar,pr;
+		   
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Length of Rectangle");
+		l=sc.nextDouble();
+		
+		System.out.println("Enter the Breadth of Rectangle");
+		b=sc.nextDouble();
+		
+		System.out.println("Enter the Radius of Circle");
+		r=sc.nextDouble();
+		
+		ar =l*b;
+		pr =2*(l+b);
+		ac =3.14*r*r;
+		cc =2*3.14*r;
+		
+		System.out.println("The area of the rectangle:" + ar);
+		System.out.println("The Perimeter of the rectangle:" + pr);
+		System.out.println("The area of the Circle:" + ac);
+		System.out.println("The Circumference of the Circle:" + cc);
+		
+
+}
+
+}
