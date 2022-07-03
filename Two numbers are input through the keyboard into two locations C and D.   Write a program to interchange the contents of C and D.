@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class ConvertTemperature
+ {
+
+	public static void main(String[] args) {
+		
+		   double c,d,t;
+		   
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Value of C");
+		c=sc.nextDouble();
+		
+		System.out.println("Enter the Value of D");
+		d=sc.nextDouble();
+		
+		c= c+d;
+		d= c-d;
+		c= c-d;
+		
+		System.out.println("The Value of C:" + c);
+		System.out.println("The Value of D:" + d);
+
+}
+
+}
