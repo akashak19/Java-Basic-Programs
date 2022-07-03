@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class ConvertTemperature
+ {
+
+	public static void main(String args[]){
+		Scanner s = new Scanner(System.in);
+		int num,a,b,c,d,e;
+		
+		System.out.println("Enter a five digit number to be reversed: ");
+		
+		num = s.nextInt();
+		System.out.println("Before Reversed Numbered: " + num);
+		
+		a = (num/10000)%10;
+		b = (num/1000)%10;
+		c = (num/100)%10;
+		d = (num/10)%10;
+		e = (num)%10;
+		System.out.println("Before Reversed Numbered: "+e+d+c+b+a );
+
+}
+
+}
